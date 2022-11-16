@@ -1,0 +1,374 @@
+.body {
+    display: grid;
+    grid-template-rows: 70px auto 120px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+nav {
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    box-shadow: 0 3px 2px -2px gray;
+    background-color: white;
+}
+
+
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu button {
+    border: none;
+    background-color: white;
+    margin: 4px;
+}
+
+.nav-menu select {
+    border: none;
+    background-color: white;
+}
+
+.nav-menu button {
+    padding: 10px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-menu button:hover {
+    color: #3d83df;
+}
+
+.nav-menu select {
+    padding: 10px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-menu select:hover {
+    color: #3d83df;
+}
+
+.select-list option {
+    padding: 50px;
+}
+
+.nav-menu a.active {
+    border-bottom: 3px solid rgb(46, 19, 196);
+}
+
+
+/* ------------------------------------ */
+/* ---------- page container ---------- */
+/* ------------------------------------ */
+
+.container {
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: grid;
+    gap: 50px;
+}
+
+/* ---------- main ---------- */
+
+.s1 {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+#title {
+    color: #00ccb1;
+}
+
+.main-p {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.main-p2 {
+    padding: 25px;
+    font-size: medium;
+}
+
+.main-p1 {
+    padding: 25px;
+    font-size: medium;
+}
+
+/* ----------s2---------- */
+
+.s2 {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 15px;
+    color: white
+}
+
+.s2 i {
+    width: 100px;
+}
+
+.card-icon {
+    width: 50px;
+}
+
+.s2-card1 {
+    display: grid;
+    grid-template-rows: 80% 20%;
+    height: 350px;
+    background-color: #00ccb1;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.s2-card2 {
+    display: grid;
+    grid-template-rows: 80% 20%;
+    height: 350px;
+    background-color: #3d83df;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.s2-card3 {
+    display: grid;
+    grid-template-rows: 80% 20%;
+    height: 350px;
+    background-color: #1b2734;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.buttons {
+    background-color: transparent;
+    color: rgb(9, 9, 10);
+    border: transparent;
+}
+
+.foter-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.foter-card select {
+    margin-top: 15px;
+}
+
+/* --------s3------------ */
+
+.s3 {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    align-items: center;
+}
+
+#company {
+    color: #00ccb1;
+
+}
+
+.s3 svg {
+    display: inline-block;
+    height: 18px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.s3 img {
+    display: inline-block;
+    height: 18px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.s3-logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* ---------s4----------- */
+
+.s4 {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #e5faf8;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.s4-p {
+    flex: 1;
+}
+
+.s4-p h2 {
+    text-align: left;
+    color: #00ccb1;
+}
+
+.s4-p p {
+    font-size: medium;
+}
+
+
+.s4-cards {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.s4-cards h2 {
+    font-size: medium;
+    text-align: center;
+    color: #00ccb1;
+}
+
+.s4 i {
+    color: #00ccb1;
+}
+
+.s4-cards p {
+
+    font-size: small;
+    text-align: center;
+}
+
+.s4-cards div {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 210px;
+}
+
+
+
+/* ---------s5----------- */
+
+.s5 {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 250px;
+    margin-right: 250px; */
+}
+
+.s5 p {
+    text-align: center;
+}
+
+.s5 h1 {
+    text-align: center;
+}
+
+/* ---------s6----------- */
+
+.s6 {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.s6-card {
+    display: grid;
+    grid-template-rows: 80% 20%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.s6-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    border-radius: 5px !important;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+.card-footer button {
+    padding: 8px;
+    background-color: #3d83df;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+}
+
+/* ---------- Join us ---------- */
+
+.s7 {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#button {
+
+    padding: 8px;
+    background-color: #3d83df;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+
+}
+
+/* ---------------------------- */
+/* ----------- footer --------- */
+/* ---------------------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #a1a1a1
+}
+
+footer p {
+    text-align: center;
+}
